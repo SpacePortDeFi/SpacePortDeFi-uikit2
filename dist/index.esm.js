@@ -2398,9 +2398,11 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
 });
 var Panel = function (props) {
   var isPushed = props.isPushed, showMenu = props.showMenu;
-    return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
-        React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(PanelFooter, __assign({}, props))));
+  return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
+      React.createElement(PanelBody, __assign({}, props)),
+    React.createElement("a", { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/spaceportdefi-polygon/" },
+    React.createElement("img", { src: "/images/egg/pools.png" })),
+      React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
 
