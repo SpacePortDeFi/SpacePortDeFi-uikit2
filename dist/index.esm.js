@@ -2219,11 +2219,11 @@ var links = [
     },
 ];
 var socials = [
-    {
+  /*  {
         label: "Reddit",
         icon: "RedditIcon",
         href: "https://www.reddit.com/user/SpacePortDeFi",
-    },
+    },  */
     {
         label: "Twitter",
         icon: "TwitterIcon",
